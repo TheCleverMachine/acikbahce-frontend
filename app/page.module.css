@@ -33,6 +33,22 @@
   background: #f0f0f0;
 }
 
+.featured {
+  padding: 50px 0;
+}
+
+.farmerGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.farmerCard {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
 .footer {
   text-align: center;
   padding: 20px;
