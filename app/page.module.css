@@ -1,0 +1,40 @@
+.container {
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #4CAF50;
+}
+
+.search {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.navLinks {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px;
+  background: #f0f0f0;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #ccc;
+}
